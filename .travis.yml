@@ -1,12 +1,6 @@
 language: common-lisp
 sudo: false
 
-addons:
-  apt:
-    packages:
-      - libc6-i386
-      - openjdk-7-jre
-
 env:
   global:
     - PATH=~/.roswell/bin:$PATH
@@ -14,11 +8,6 @@ env:
   matrix:
     - LISP=sbcl-bin 
     - LISP=ccl-bin
-    - LISP=abcl
-    - LISP=clisp
-    - LISP=ecl
-    - LISP=cmucl
-    - LISP=alisp
 
 matrix:
   fast_finish: true
