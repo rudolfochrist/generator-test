@@ -1,0 +1,35 @@
+#+STARTUP: showall
+#+OPTIONS: toc:nil
+
+# This is just the template README. Export to markdown to get the real README.
+
+* NAME
+
+generator-test --- Project generator test
+
+* VERSION
+
+#+BEGIN_SRC lisp :exports results
+(format nil "Version ~A"
+        (asdf:component-version (asdf:find-system :generator-test)))
+#+END_SRC
+
+* DESCRIPTION
+
+This is just a small test project to verify the configuration for progrject generation and Travis CI.
+
+* AUTHOR
+
+Sebastian Christ ([[mailto:rudolfo.christ@gmail.com]])
+
+* COPYRIGHT
+
+Copyright (c) 2017 Sebastian Christ (rudolfo.christ@gmail.com)
+
+Released under the BSD license.
+
+* SEE ALSO
+
+- [[https://github.com/fukamachi/cl-project/][cl-project]]
+- [[https://github.com/roswell/roswell][roswell]]
+- [[https://github.com/luismbo/cl-travis][cl-travis]]
