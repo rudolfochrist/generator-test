@@ -23,3 +23,6 @@
 
 (test say-hi
   (is (equal "Hi Bobby!" (say-hi "Bobby"))))
+
+(test my-add
+  (is (= 5 (my-add 2 3))))

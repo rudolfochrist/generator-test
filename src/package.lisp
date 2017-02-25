@@ -4,5 +4,6 @@
 (defpackage #:generator-test
   (:use :cl)
   (:export
-   #:say-hi))
+   #:say-hi
+   #:my-add))
 
